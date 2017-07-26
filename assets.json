@@ -1,0 +1,123 @@
+[
+  {
+    "name": "aragon",
+    "properName": "Aragon",
+    "available": true,
+    "decimals": 18,
+    "displayUnit": "ANT",
+    "shapeShiftUnit": "ant",
+    "blockExplorer": "ANT",
+    "contractAddress": "0x960b236A07cf122663c4303350609A66A7B288C0",
+    "color": "#2CDEE1"
+  },
+  {
+    "name": "augur",
+    "properName": "Augur",
+    "available": true,
+    "decimals": 18,
+    "displayUnit": "REP",
+    "shapeShiftUnit": "rep",
+    "blockExplorer": "REP",
+    "contractAddress": "0x48c80F1f4D53D5951e5D5438B54Cba84f29F32a5",
+    "color": "#AD2688"
+  },
+  {
+    "name": "bancor",
+    "properName": "Bancor",
+    "available": false,
+    "decimals": 18,
+    "displayUnit": "BNT",
+    "shapeShiftUnit": "bnt",
+    "blockExplorer": "BNT",
+    "contractAddress": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+    "color": "#676981"
+  },
+  {
+    "name": "bat",
+    "properName": "BAT",
+    "available": false,
+    "decimals": 18,
+    "displayUnit": "BAT",
+    "shapeShiftUnit": "bat",
+    "blockExplorer": "BAT",
+    "contractAddress": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+    "color": "#ff5000"
+  },
+  {
+    "name": "civic",
+    "properName": "Civic",
+    "available": false,
+    "decimals": 8,
+    "displayUnit": "CVC",
+    "shapeShiftUnit": "cvc",
+    "blockExplorer": "CVC",
+    "contractAddress": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+    "color": "#3EB13E"
+  },
+  {
+    "name": "digix",
+    "properName": "DigixDAO",
+    "available": false,
+    "decimals": 9,
+    "displayUnit": "DGD",
+    "shapeShiftUnit": "dgd",
+    "blockExplorer": "DGD",
+    "contractAddress": "0xe0b7927c4af23765cb51314a0e0521a9645f0e2a",
+    "color": "#eeaf4a"
+  },
+  {
+    "name": "eos",
+    "properName": "EOS",
+    "available": true,
+    "decimals": 18,
+    "displayUnit": "EOS",
+    "shapeShiftUnit": "eos",
+    "blockExplorer": "EOS",
+    "contractAddress": "0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0",
+    "color": "#99A4EA"
+  },
+  {
+    "name": "firstblood",
+    "properName": "FirstBlood",
+    "available": false,
+    "decimals": 18,
+    "displayUnit": "1ST",
+    "shapeShiftUnit": "",
+    "blockExplorer": "1ST",
+    "contractAddress": "0xaf30d2a7e90d7dc361c8c4585e9bb7d2f6f15bc7",
+    "color": "#D0021B"
+  },
+  {
+    "name": "gnosis",
+    "properName": "Gnosis",
+    "available": true,
+    "decimals": 18,
+    "displayUnit": "GNO",
+    "shapeShiftUnit": "gno",
+    "blockExplorer": "GNO",
+    "contractAddress": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+    "color": "#02d8ff"
+  },
+  {
+    "name": "golem",
+    "properName": "Golem",
+    "available": true,
+    "decimals": 18,
+    "displayUnit": "GNT",
+    "shapeShiftUnit": "gnt",
+    "blockExplorer": "GNT",
+    "contractAddress": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
+    "color": "#01D3E0"
+  },
+  {
+    "name": "wings",
+    "properName": "Wings",
+    "available": false,
+    "decimals": 18,
+    "displayUnit": "WINGS",
+    "shapeShiftUnit": "wings",
+    "blockExplorer": "WINGS",
+    "contractAddress": "0x667088b212ce3d06a1b553a7221E1fD19000d9aF",
+    "color": "#a9d6e6"
+  }
+]

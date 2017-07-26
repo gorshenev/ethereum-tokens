@@ -4,7 +4,8 @@
   "description": "Ethereum ERC20 Assets.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard && node test.js",
+    "add": "node add-asset.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/exodusmovement/erc20/issues"
   },
-  "homepage": "https://github.com/exodusmovement/erc20#readme"
+  "homepage": "https://github.com/exodusmovement/erc20#readme",
+  "devDependencies": {
+    "enquirer": "^1.0.2",
+    "fs-extra": "^4.0.0",
+    "path-extra": "^4.2.0",
+    "prompt-confirm": "^1.2.0"
+  }
 }
