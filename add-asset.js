@@ -1,25 +1,16 @@
 const fs = require('fs-extra')
 const enquirer = new (require('enquirer'))()
 
-enquirer.register('boolean', require('prompt-confirm'))
-
 const questions = [
   'name',
   'properName',
-  { name: 'available', type: 'boolean' },
   'decimals',
   'displayUnit',
   'shapeShiftUnit',
   'blockExplorer',
   'contractAddress',
   'color'
-].map(q => {
-  if (typeof q === 'object') {
-    q.message = q.name
-    return q
-  }
-  return { name: q, message: q }
-})
+]
 
 Promise.all([
   fs.readJson('assets.json'),
@@ -30,7 +21,7 @@ Promise.all([
     if (jsonData.some(item => item.contractAddress === answers.contractAddress)) {
       throw new Error(`asset with contractAddress: ${answers.contractAddress} already exists`)
     }
-    if (Object.keys(answers).length !== 9) throw new Error('Some fields missing')
+    if (Object.keys(answers).length !== questions.length) throw new Error('Some fields missing')
     answers.decimals = Number(answers.decimals)
     if (Number.isNaN(answers.decimals)) throw new Error('Invalid `decimals` entered')
     if (answers.color[0] !== '#') answers.color = `#${answers.color}`

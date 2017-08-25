@@ -2,7 +2,6 @@
   {
     "name": "aragon",
     "properName": "Aragon",
-    "available": true,
     "decimals": 18,
     "displayUnit": "ANT",
     "shapeShiftUnit": "ant",
@@ -13,7 +12,6 @@
   {
     "name": "augur",
     "properName": "Augur",
-    "available": true,
     "decimals": 18,
     "displayUnit": "REP",
     "shapeShiftUnit": "rep",
@@ -24,7 +22,6 @@
   {
     "name": "bancor",
     "properName": "Bancor",
-    "available": false,
     "decimals": 18,
     "displayUnit": "BNT",
     "shapeShiftUnit": "bnt",
@@ -35,7 +32,6 @@
   {
     "name": "bat",
     "properName": "BAT",
-    "available": false,
     "decimals": 18,
     "displayUnit": "BAT",
     "shapeShiftUnit": "bat",
@@ -46,7 +42,6 @@
   {
     "name": "civic",
     "properName": "Civic",
-    "available": false,
     "decimals": 8,
     "displayUnit": "CVC",
     "shapeShiftUnit": "cvc",
@@ -57,7 +52,6 @@
   {
     "name": "digix",
     "properName": "DigixDAO",
-    "available": false,
     "decimals": 9,
     "displayUnit": "DGD",
     "shapeShiftUnit": "dgd",
@@ -68,7 +62,6 @@
   {
     "name": "district0x",
     "properName": "District0x",
-    "available": true,
     "decimals": 18,
     "displayUnit": "DNT",
     "shapeShiftUnit": "dnt",
@@ -79,7 +72,6 @@
   {
     "name": "eos",
     "properName": "EOS",
-    "available": true,
     "decimals": 18,
     "displayUnit": "EOS",
     "shapeShiftUnit": "eos",
@@ -90,7 +82,6 @@
   {
     "name": "firstblood",
     "properName": "FirstBlood",
-    "available": false,
     "decimals": 18,
     "displayUnit": "1ST",
     "shapeShiftUnit": "",
@@ -101,7 +92,6 @@
   {
     "name": "funfair",
     "properName": "FunFair",
-    "available": true,
     "decimals": 8,
     "displayUnit": "FUN",
     "shapeShiftUnit": "fun",
@@ -112,7 +102,6 @@
   {
     "name": "gnosis",
     "properName": "Gnosis",
-    "available": true,
     "decimals": 18,
     "displayUnit": "GNO",
     "shapeShiftUnit": "gno",
@@ -123,7 +112,6 @@
   {
     "name": "golem",
     "properName": "Golem",
-    "available": true,
     "decimals": 18,
     "displayUnit": "GNT",
     "shapeShiftUnit": "gnt",
@@ -134,7 +122,6 @@
   {
     "name": "metal",
     "properName": "Metal",
-    "available": true,
     "decimals": 8,
     "displayUnit": "MTL",
     "shapeShiftUnit": "mtl",
@@ -145,7 +132,6 @@
   {
     "name": "qtum",
     "properName": "QTUM",
-    "available": true,
     "decimals": 18,
     "displayUnit": "QTUM",
     "shapeShiftUnit": "qtum",
@@ -156,7 +142,6 @@
   {
     "name": "salt",
     "properName": "SALT",
-    "available": false,
     "decimals": 8,
     "displayUnit": "SALT",
     "shapeShiftUnit": "salt",
@@ -167,7 +152,6 @@
   {
     "name": "status",
     "properName": "Status",
-    "available": true,
     "decimals": 18,
     "displayUnit": "SNT",
     "shapeShiftUnit": "snt",
@@ -178,7 +162,6 @@
   {
     "name": "storj",
     "properName": "Storj",
-    "available": true,
     "decimals": 8,
     "displayUnit": "STORJ",
     "shapeShiftUnit": "",
@@ -189,7 +172,6 @@
   {
     "name": "wings",
     "properName": "Wings",
-    "available": false,
     "decimals": 18,
     "displayUnit": "WINGS",
     "shapeShiftUnit": "wings",
@@ -200,7 +182,6 @@
   {
     "name": "zerox",
     "properName": "0x",
-    "available": true,
     "decimals": 18,
     "displayUnit": "ZRX",
     "shapeShiftUnit": "zrx",
