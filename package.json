@@ -2,28 +2,34 @@
   "name": "ethereum-tokens",
   "version": "0.0.0",
   "description": "Ethereum ERC20 Assets.",
-  "main": "index.js",
-  "scripts": {
-    "test": "standard && tape test/*.js",
-    "add": "node add-asset.js"
+  "keywords": [
+    "ethereum"
+  ],
+  "homepage": "https://github.com/exodusmovement/ethereum-tokens#readme",
+  "bugs": {
+    "url": "https://github.com/exodusmovement/ethereum-tokens/issues"
   },
+  "license": "MIT",
+  "author": "Exodus Movement, Inc.",
+  "files": [
+    "assets.json",
+    "logos"
+  ],
+  "main": "./assets.json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/exodusmovement/ethereum-tokens.git"
   },
-  "keywords": [
-    "ethereum"
-  ],
-  "author": "Exodus Movement, Inc.",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/exodusmovement/ethereum-tokens/issues"
+  "scripts": {
+    "add": "node add-asset.js",
+    "lint": "standard",
+    "test": "npm run lint && tape test/*.js"
   },
-  "homepage": "https://github.com/exodusmovement/ethereum-tokens#readme",
   "devDependencies": {
     "enquirer": "^1.0.2",
     "fs-extra": "^4.0.0",
     "path-extra": "^4.2.0",
     "tape": "^4.8.0"
-  }
+  },
+  "private": true
 }
