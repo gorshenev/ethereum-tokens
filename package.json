@@ -4,7 +4,7 @@
   "description": "Ethereum ERC20 Assets.",
   "main": "index.js",
   "scripts": {
-    "test": "standard && node test.js",
+    "test": "standard && tape test/*.js",
     "add": "node add-asset.js"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "devDependencies": {
     "enquirer": "^1.0.2",
     "fs-extra": "^4.0.0",
-    "path-extra": "^4.2.0"
+    "path-extra": "^4.2.0",
+    "tape": "^4.8.0"
   }
 }
