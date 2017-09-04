@@ -27,7 +27,9 @@
   },
   "devDependencies": {
     "enquirer": "^1.0.2",
+    "ethereumjs-util": "^5.1.2",
     "fs-extra": "^4.0.0",
+    "node-fetch": "^1.7.2",
     "path-extra": "^4.2.0",
     "tape": "^4.8.0"
   },

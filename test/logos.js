@@ -2,7 +2,7 @@
 const test = require('tape')
 const fs = require('fs')
 const path = require('path')
-const assets = require('../assets.json')
+const assets = require('../')
 
 test('logos', (t) => {
   for (const asset of assets) {
