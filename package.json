@@ -21,7 +21,7 @@
     "url": "git+https://github.com/exodusmovement/ethereum-tokens.git"
   },
   "scripts": {
-    "add": "node add-asset.js",
+    "add": "node ./bin/add.js",
     "lint": "standard",
     "test": "npm run lint && tape test/*.js"
   },
@@ -30,7 +30,6 @@
     "ethereumjs-util": "^5.1.2",
     "fs-extra": "^4.0.0",
     "node-fetch": "^1.7.2",
-    "path-extra": "^4.2.0",
     "tape": "^4.8.0"
   },
   "private": true
