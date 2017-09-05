@@ -20,6 +20,16 @@
     "color": "#AD2688"
   },
   {
+    "name": "augurold",
+    "properName": "AugurOld",
+    "decimals": 18,
+    "displayUnit": "REP",
+    "shapeShiftUnit": "rep",
+    "blockExplorer": "REP",
+    "contractAddress": "0x48c80F1f4D53D5951e5D5438B54Cba84f29F32a5",
+    "color": "#AD2688"
+  },
+  {
     "name": "bancor",
     "properName": "Bancor",
     "decimals": 18,
