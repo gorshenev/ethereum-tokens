@@ -1,6 +1,9 @@
+'use strict'
 const fs = require('fs-extra')
-const enquirer = new (require('enquirer'))()
+const path = require('path')
+const Enquirer = require('enquirer')
 
+const assetsFile = path.join(__dirname, '..', 'assets.json')
 const questions = [
   'name',
   'properName',
@@ -13,28 +16,27 @@ const questions = [
 ]
 
 Promise.all([
-  fs.readJson('assets.json'),
-  enquirer.ask(questions)
+  fs.readJson(assetsFile),
+  new Enquirer().ask(questions)
 ])
-  .then(([jsonData, answers]) => {
+  .then(([assets, answers]) => {
     // Validation:
-    if (jsonData.some(item => item.contractAddress === answers.contractAddress)) {
+    if (assets.some((item) => item.contractAddress === answers.contractAddress)) {
       throw new Error(`asset with contractAddress: ${answers.contractAddress} already exists`)
     }
     if (Object.keys(answers).length !== questions.length) throw new Error('Some fields missing')
     answers.decimals = Number(answers.decimals)
-    if (Number.isNaN(answers.decimals)) throw new Error('Invalid `decimals` entered')
+    if (!Number.isFinite(answers.decimals)) throw new Error('Invalid `decimals` entered')
     if (answers.color[0] !== '#') answers.color = `#${answers.color}`
 
     console.log(JSON.stringify(answers, null, 2))
 
-    const newData = jsonData.concat(answers).sort((a, b) => {
+    const newData = assets.concat(answers).sort((a, b) => {
       if (a.name < b.name) return -1
       if (a.name > b.name) return 1
       return 0
     })
 
-    return fs.writeJson('assets.json', newData, { spaces: 2 })
+    return fs.writeJson(assetsFile, newData, { spaces: 2 })
   })
-  .then(() => console.warn('done'))
-  .catch(console.error)
+  .then(() => console.warn('done'), console.error)
