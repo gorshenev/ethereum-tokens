@@ -32,6 +32,5 @@
     "node-fetch": "^1.7.2",
     "standard": "^10.0.3",
     "tape": "^4.8.0"
-  },
-  "private": true
+  }
 }
